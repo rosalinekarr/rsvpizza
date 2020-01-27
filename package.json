@@ -1,0 +1,25 @@
+{
+  "name": "rsvpizza",
+  "version": "1.0.0",
+  "description": "An app to track how much pizza to get",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosalinekarr/rsvpizza.git"
+  },
+  "author": "Rosaline Karr <rose@rosalinekarr.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rosalinekarr/rsvpizza/issues"
+  },
+  "homepage": "https://github.com/rosalinekarr/rsvpizza#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twilio": "^3.39.3"
+  }
+}
